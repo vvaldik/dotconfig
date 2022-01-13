@@ -1,0 +1,68 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "string.quoted.double.go",
+          "string.quoted.raw.go"
+        ],
+        "settings": {
+          "foreground": "#1be700"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function"
+        ],
+        "settings": {
+          "foreground": "#ff7332"
+        }
+      },
+      {
+        "scope": [
+          "support.function"
+        ],
+        "settings": {
+          "foreground": "#ff9a6b"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control"
+        ],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.numeric.go",
+          "storage.type.string.go"
+        ],
+        "settings": {
+          "foreground": "#ffe7c0"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type"
+        ],
+        "settings": {
+          "foreground": "#ffbc4f"
+        }
+      }
+    ]
+  },
+  "editor.formatOnSave": true, // Set the default
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "ilyakaznacheev"
+  ]
+}
