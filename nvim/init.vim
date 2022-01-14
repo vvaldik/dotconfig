@@ -26,6 +26,8 @@ set shiftwidth=4
 set smarttab
 set softtabstop=4
 set wildmode=longest:full,full
+set guicursor=a:blinkon1 " enable cursor blinking
+set guicursor+=i:ver1 " enable vertical cursor when in insert mode
 
 "Config Section
 if (has("termguicolors"))
