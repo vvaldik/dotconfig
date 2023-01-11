@@ -122,6 +122,9 @@ let g:fzf_action = {
 
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
+"ctrl+s for save in insert mode
+inoremap <silent><c-s> <c-o>:update<cr>
+
 "fix of golang function color
 "vim-go syntax highlighting bs
 let g:go_highlight_operators = 1

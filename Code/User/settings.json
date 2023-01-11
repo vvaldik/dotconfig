@@ -56,6 +56,9 @@
     ]
   },
   "editor.formatOnSave": true, // Set the default
+  "[cpp]": {
+    "editor.formatOnSave": false
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -64,5 +67,8 @@
   },
   "cSpell.userWords": [
     "ilyakaznacheev"
-  ]
+  ],
+  "explorer.sortOrder": "type",
+"editor.detectIndentation": false,
+"C_Cpp.default.cppStandard": "c++17"
 }
