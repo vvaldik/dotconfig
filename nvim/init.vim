@@ -1,6 +1,6 @@
 call plug#begin("~/.config/nvim/plugged")
   " Plugin Section
-  "Plug 'savq/melange' "color theme
+  " Plug 'savq/melange' "color theme
   Plug 'EdenEast/nightfox.nvim' "color theme
   Plug 'nvim-lualine/lualine.nvim'
   Plug 'kyazdani42/nvim-web-devicons'
