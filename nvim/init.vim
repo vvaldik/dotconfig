@@ -19,6 +19,7 @@ call plug#begin("~/.config/nvim/plugged")
   Plug 'kevinoid/vim-jsonc' "jsonc support (json with comments)
 call plug#end()
 
+set mouse= "disabling default nvi behavior
 set number
 set relativenumber
 set tabstop=4
